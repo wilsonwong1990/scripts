@@ -9,4 +9,5 @@ curl -X PATCH "https://api.github.com/repos/${repo}" -H "Authorization: Bearer $
   "default_branch": "main"
 }'
 git push origin --delete master
+git remote set-head origin main
 git branch
